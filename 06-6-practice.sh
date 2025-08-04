@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#indext start from 1 , size is 3
+#indext start from 0 , size is 3
 FRUITS=("APPLE" "KIWI" "ORANGE") #Array
 
 echo "first fruit is: ${FRUITS[1]}"
