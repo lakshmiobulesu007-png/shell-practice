@@ -5,7 +5,7 @@
 FRUITS ("apple" "kiwi" "orange") Array
 
 echo "first fruit is: ${FRUIT[0]}"
-echo "second fruit is: ${FRUIT[3]}"
-echo "thard fruit is: ${FRUIT[3]}"
+echo "second fruit is: ${FRUIT[1]}"
+echo "thard fruit is: ${FRUIT[2]}"
 
 echo "total fruit are: ${FRUIT[@]}"
