@@ -7,8 +7,8 @@ CHECK ROOT( ) {
         echo "Please run this script with root priveleges"
         exit 1
     fi
-
-}
+    
+    }
 
 VALIDATE( ) {
     if [ $1 -ne 0 ]
