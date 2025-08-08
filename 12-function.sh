@@ -2,11 +2,12 @@
 
 USERID=$(id -u)
 CHECK ROOT( ) {
-     if [ $USERID -ne 0 ]
+    if [ $USERID -ne 0 ]
     then
-        echo " plese run this sript root user privelejetion"
+        echo "Please run this script with root priveleges"
         exit 1
     fi
+
 }
 
 VALIDATE( ) {
