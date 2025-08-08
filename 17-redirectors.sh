@@ -31,7 +31,7 @@ CHECK_ROOT
 for packages in $@ # $@ refer to all arguments pass to it
 do 
     dnf list installed $package
-    fi [ $? -ne 0 ]
+    if [ $? -ne 0 ]
     then
         echo "$package is not installed plece check it"
         dnf install $package -y
